@@ -1,0 +1,190 @@
+.nav{
+    height: 40vh;
+    width: 70%;
+    background: url(https://media4.giphy.com/media/doXBzUFJRxpaUbuaqz/giphy.gif);
+    display: block;
+    margin: auto;
+}
+
+.nav-image{
+    width: 100%;
+    height: 30vh;
+    background: url(https://st.depositphotos.com/1008522/2818/v/600/depositphotos_28180073-stock-illustration-doodle-sketch-animals-people-flowers.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-image h1{
+    font-size: 50px;
+    background: black;
+    color: white;
+    padding: 20px 30px;
+}
+
+.options{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    font-size: 25px;
+}
+
+.options a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.options a:hover{
+    background: linear-gradient(rgb(238, 132, 132), rgb(139, 139, 254));
+    border-radius: 20px;
+
+}
+
+#line{
+    width: 70%;
+}
+
+#about{
+    text-align: center;
+}
+
+#video{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+h4{
+    text-align: center;
+}
+
+#me{
+    text-align: center;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+#line2{
+    width: 70%;
+}
+
+#news{
+    text-align: center;
+}
+
+.cards{
+    width: 80%;
+    height: 50vh;
+    display: flex;
+    margin: auto;
+    justify-content: space-evenly;
+    padding-top: 5px;
+}
+
+.card1{
+    width: 20%;
+    height: 40vh;
+    background:url(https://i.pinimg.com/originals/c4/35/d8/c435d8ab77377a71fbf93e45058b48d6.gif) ;
+}
+.card2{
+    width: 50%;
+    height: 40vh;
+    background:url(https://i.pinimg.com/originals/c4/35/d8/c435d8ab77377a71fbf93e45058b48d6.gif) ;
+}
+.card3{
+    width: 20%;
+    height: 40vh;
+    background:url(https://i.pinimg.com/originals/c4/35/d8/c435d8ab77377a71fbf93e45058b48d6.gif) ;
+}
+.cards h1{
+    color: white;
+    font-size: 40px;
+}
+.cards p{
+    color: white;
+    font-size: 20px;
+}
+
+#teamline{
+    width: 80%;
+}
+#teamh{
+    margin-left: 10%;
+}
+.team{
+    width: 80%;
+    height: 70vh;
+
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+}
+.teamCard1{
+    width: 22%;
+    height: 70vh;
+    background: rgb(216, 216, 216);
+    text-align: center;
+    box-shadow: 0px 10px 30px rgb(0, 0, 0);
+}
+.teamCard1 img{
+    border-radius: 50%;
+    width: 50%;
+    border: 5px solid rgb(184, 87, 87);
+}
+
+#gameline{
+    width: 80%;
+}
+#gameh{
+    margin-left: 10%;
+}
+.games{
+    width: 80%;
+    height: 40vh;
+    padding-top: 40px;
+    display: flex;
+    margin: auto;
+    justify-content: space-evenly;
+}
+.game1{
+    width: 22%;
+    height: 40vh;
+    text-align: center;
+    border: 0.5px solid gray;
+    cursor: pointer;
+}
+.game1 img{
+    width: 100%;
+    height: 30vh;
+}
+.game1 h1{
+    font-size: 20px;
+}
+
+.game1:hover{
+    transform: scale(1.1);
+    transition: 0.3s ease;
+}
+
+.subs{
+    width: 70%;
+    height: 30vh;
+    background: url(https://i0.wp.com/www.printmag.com/wp-content/uploads/2021/02/4cbe8d_f1ed2800a49649848102c68fc5a66e53mv2.gif?fit=476%2C280&ssl=1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border-radius: 30px;
+ 
+}
+ 
+.subs button{
+    padding: 30px 80px;
+    font-size: 25px;
+    border: none;
+    background: black;
+    color: white;
+    opacity: 0.8;
+}
